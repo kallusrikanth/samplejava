@@ -17,7 +17,7 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
-    <distributionManagement>
+<!--    <distributionManagement>
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
@@ -28,7 +28,7 @@
             <name>Internal Snapshot Releases</name>
             <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
-    </distributionManagement>
+-->    </distributionManagement>
     <build>
     	<finalName>javaee7-simple-sample</finalName>
         <pluginManagement>
