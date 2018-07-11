@@ -27,21 +27,20 @@
     </dependencies>
 
 
-<!--    
 <distributionManagement>
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://localhost:8081/nexus/content/repositories/releases/</url>
+            <url>http://ec2-52-91-201-252.compute-1.amazonaws.com:8081/artifactory/libs-release-local/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+            <url>http://ec2-52-91-201-252.compute-1.amazonaws.com:8081/artifactory/libs-snapshot-local/</url>
         </snapshotRepository> 
     </distributionManagement>
--->
-    <build>
+    
+      <build>
     	<finalName>javaee7-simple-sample</finalName>
         <pluginManagement>
             <plugins>
