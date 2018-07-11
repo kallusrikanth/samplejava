@@ -5,12 +5,6 @@ import javax.ws.rs.core.Application;
 
 @ApplicationPath("/resources")
 
-import static org.junit.Assert.*;
-
-import org.junit.Test;
-
-    @Test
-
 public class MyApplication extends Application {
 
 }
