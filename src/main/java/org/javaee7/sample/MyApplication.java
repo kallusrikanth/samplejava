@@ -5,7 +5,7 @@ import javax.ws.rs.core.Application;
 
 @ApplicationPath("/resources")
 
-    @Test
+    
 
 public class MyApplication extends Application {
 
