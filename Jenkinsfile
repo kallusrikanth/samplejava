@@ -5,9 +5,9 @@ pipeline {
              maven  "maven3"
        }
     stages {
-        stage('Example') {
+        stage('Maven Build') {
             steps { 
-                echo 'Hello World'
+                sh 'mvn --version'
             }
         }
     }
