@@ -22,6 +22,8 @@ pipeline {
            steps {
              script {
                 def server = Artifactory.server 'server'
+                def rtMaven = Artifactory.newMavenBuild()
+                def buildInfo
                 server.bypassProxy = true
                 rtMaven.tool = "maven3"
                 rtMaven.deployer releaseRepo:'libs-release-local', snapshotRepo:'libs-snapshot-local', server: server
