@@ -21,7 +21,7 @@ pipeline {
         stage('Artifactory configuration') {
            steps {
              script {
-               def server = Artifactory.server url: 'http://jfrog.baladigitalcloud.com/artifactory', username: 'admin', password: 'Kurtw@11'
+                def server = Artifactory.server 'server'
                 server.bypassProxy = true
                 rtMaven.tool = "maven3"
                 rtMaven.deployer releaseRepo:'libs-release-local', snapshotRepo:'libs-snapshot-local', server: server
