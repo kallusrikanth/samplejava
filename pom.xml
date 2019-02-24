@@ -31,12 +31,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://18.216.121.240:8081/artifactory/libs-release-local/</url>
+            <url>http://18.218.62.85:8081/artifactory/maven-local/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://18.216.121.240:8081/artifactory/libs-snapshot-local/</url>
+            <url>http://18.218.62.85:8081/artifactory/maven-snapshot/</url>
         </snapshotRepository> 
     </distributionManagement>
     
